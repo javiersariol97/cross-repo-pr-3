@@ -1,0 +1,16 @@
+name: Hola Mundo PR
+
+on:
+  pull_request:
+    types: [opened]
+    branches:
+      - staging
+
+jobs:
+  hello_world:
+    runs-on: ubuntu-latest
+    name: hello World
+    steps:
+      - name: Run Hello World
+        run: |
+          echo "Hola Mundo PR de prueba 3"
