@@ -13,4 +13,4 @@ jobs:
     steps:
       - name: Run Hello World
         run: |
-          echo "Hola Mundo PR de prueba 3"
+          echo "Hola Mundo PR de test 3"
